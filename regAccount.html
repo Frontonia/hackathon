@@ -1,4 +1,5 @@
-﻿<!DOCTYPE HTML>
+﻿
+<!DOCTYPE HTML>
 <html>
 
 <head>
@@ -17,13 +18,17 @@ width:250px;
 <body>
     <form action="login.php" method="POST">
         <div class="rendered-form">
-            <div class="fb-text form-group field-Login">
-            	<label for="Login" class="fb-text-label">Логин</label>
-            	<input type="text" class="form-control" name="Login" id="Login">
+            <div>
+            	<label class="fb-text-label">Логин</label>
+            	<input type="text" class="form-control" id="Login">
             </div>
-            <div class="fb-text form-group field-Password">
-            	<label for="Password" class="fb-text-label">Пароль</label>
-            	<input type="password" class="form-control" name="Password" id="Password">
+            <div>
+            	<label class="fb-text-label">Пароль</label>
+            	<input type="password" class="form-control" id="PasswordFirst">
+            </div>
+            <div>
+            	<label class="fb-text-label">Подтвердите пароль</label>
+            	<input type="password" class="form-control" id="PasswordSecnd">
             </div>
             <div class="fb-button form-group field-button-1572324117868">
             	<button type="submit" class="btn-primary btn" name="button-1572324117868" style="primary" id="button-1572324117868">Регистрация</button>
@@ -32,4 +37,4 @@ width:250px;
     </form>
 </body>
 
-</html>
+</html
